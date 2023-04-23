@@ -10,8 +10,6 @@ from bokeh.palettes import Spectral6
 
 from bokeh.models import HoverTool, LassoSelectTool, Plot, WheelZoomTool, CrosshairTool, ResetTool, PanTool
 
-from streamlit_bokeh_events import streamlit_bokeh_events
-
 @st.cache_data
 def get_data():
     url='https://drive.switch.ch/index.php/s/cxW0xrmQXdGL1VJ/download'
